@@ -1,0 +1,40 @@
+.regular__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+.regular__clients--h {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: getColor('headers-nav-color');
+  margin-bottom: 50px;
+}
+.regular__clients--list {
+  display: flex;
+}
+.regular__clients--item:not(:last-child) {
+  margin-right: 30px;
+}
+.regular__clients--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 1px solid getColor('main-border-color');
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  color: getColor('main-border-color');
+  &:hover,
+  &:focus {
+    color: getColor('main-accent-color');
+    border: 1px solid getColor('main-accent-color');
+  }
+}
+.regular__clients--soc-icons {
+  fill: currentColor;
+}

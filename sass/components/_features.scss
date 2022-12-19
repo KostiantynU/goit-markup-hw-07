@@ -1,0 +1,32 @@
+.features__list {
+  display: flex;
+
+  & > .features__item {
+    margin-right: 30px;
+  }
+
+  & > .features__item:last-child {
+    margin-right: 0px;
+  }
+}
+
+.featureslist__div {
+  background-color: getColor('features-div-color');
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.featureslist__h {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: getColor('headers-nav-color');
+}
+.featureslist__p {
+  line-height: 1.71;
+}
