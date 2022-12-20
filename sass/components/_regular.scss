@@ -19,9 +19,7 @@
   margin-right: 30px;
 }
 .regular__clients--link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-align-justify;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   border: 1px solid getColor('main-border-color');

@@ -3,10 +3,7 @@
   display: inline-block;
   margin-top: 24px;
   margin-bottom: 25px;
-  font-family: 'RaleWay', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include logo-link;
 }
 .logo__link > .logo__link--web {
   color: getColor('main-accent-color');
@@ -25,10 +22,8 @@
   display: flex;
   margin-left: 93px;
   gap: 50px;
-  font-weight: 500;
-  line-height: 1.14;
+  @include navigation-contacts;
   color: getColor('headers-nav-color');
-  letter-spacing: 0.02em;
 }
 .headnav__link {
   color: getColor('headers-nav-color');
@@ -76,7 +71,7 @@
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   color: getColor('main-p-color');
-  font-weight: 500;
+  @include navigation-contacts;
   &:hover,
   &:focus {
     color: getColor('main-accent-color');

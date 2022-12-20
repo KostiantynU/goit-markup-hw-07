@@ -88,9 +88,7 @@
   color: getColor('white-color');
 }
 .footer__subscribe--btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-align-justify;
   gap: 10px;
   &:hover,
   &:focus {

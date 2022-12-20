@@ -18,9 +18,7 @@
   bottom: 0;
   width: 370px;
   height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-align-justify;
   background-color: rgba(47, 48, 58, 0.8);
   color: getColor('white-color');
   font-weight: 700;

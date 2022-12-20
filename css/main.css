@@ -2,99 +2,64 @@
 /* Fonts */
 /* oleo-script-regular - latin */
 @font-face {
-  font-family: 'Oleo Script';
+  font-family: "Oleo Script";
   font-style: normal;
   font-weight: 400;
-  src: url('../../fonts/oleo-script-v14-latin/oleo-script-v14-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-    url('../../fonts/oleo-script-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/oleo-script-v14-latin-regular.woff2') format('woff2'),
-    url('../../fonts/oleo-script-v14-latin-regular.woff') format('woff'),
-    url('../../fonts/oleo-script-v14-latin-regular.ttf') format('truetype'),
-    url('../../fonts/oleo-script-v14-latin-regular.svg#OleoScript') format('svg'); /* Legacy iOS */
+  src: url("../../fonts/oleo-script-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/oleo-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/oleo-script-v14-latin-regular.woff2") format("woff2"), url("../../fonts/oleo-script-v14-latin-regular.woff") format("woff"), url("../../fonts/oleo-script-v14-latin-regular.ttf") format("truetype"), url("../../fonts/oleo-script-v14-latin-regular.svg#OleoScript") format("svg"); /* Legacy iOS */
 }
 /* raleway-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  src: url('../../fonts/raleway-v28-latin_cyrillic/raleway-v28-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-    url('../../fonts/raleway-v28-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/raleway-v28-latin_cyrillic-regular.woff2') format('woff2'),
-    url('../../fonts/raleway-v28-latin_cyrillic-regular.woff') format('woff'),
-    url('../../fonts/raleway-v28-latin_cyrillic-regular.ttf') format('truetype'),
-    url('../../fonts/raleway-v28-latin_cyrillic-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  src: url("../../fonts/raleway-v28-latin_cyrillic/raleway-v28-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/raleway-v28-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-v28-latin_cyrillic-regular.woff2") format("woff2"), url("../../fonts/raleway-v28-latin_cyrillic-regular.woff") format("woff"), url("../../fonts/raleway-v28-latin_cyrillic-regular.ttf") format("truetype"), url("../../fonts/raleway-v28-latin_cyrillic-regular.svg#Raleway") format("svg"); /* Legacy iOS */
 }
 /* raleway-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: url('../../fonts/raleway-v28-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-    url('../../fonts/raleway-v28-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/raleway-v28-latin_cyrillic-700.woff2') format('woff2'),
-    url('../../fonts/raleway-v28-latin_cyrillic-700.woff') format('woff'),
-    url('../../fonts/raleway-v28-latin_cyrillic-700.ttf') format('truetype'),
-    url('../../fonts/raleway-v28-latin_cyrillic-700.svg#Raleway') format('svg'); /* Legacy iOS */
+  src: url("../../fonts/raleway-v28-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/raleway-v28-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-v28-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/raleway-v28-latin_cyrillic-700.woff") format("woff"), url("../../fonts/raleway-v28-latin_cyrillic-700.ttf") format("truetype"), url("../../fonts/raleway-v28-latin_cyrillic-700.svg#Raleway") format("svg"); /* Legacy iOS */
 }
 /* roboto-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url('../../fonts/roboto-v30-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-    url('../../fonts/roboto-v30-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-regular.woff2') format('woff2'),
-    url('../../fonts/roboto-v30-latin_cyrillic-regular.woff') format('woff'),
-    url('../../fonts/roboto-v30-latin_cyrillic-regular.ttf') format('truetype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  src: url("../../fonts/roboto-v30-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v30-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin_cyrillic-regular.woff2") format("woff2"), url("../../fonts/roboto-v30-latin_cyrillic-regular.woff") format("woff"), url("../../fonts/roboto-v30-latin_cyrillic-regular.ttf") format("truetype"), url("../../fonts/roboto-v30-latin_cyrillic-regular.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* roboto-500 - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url('../../fonts/roboto-v30-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
-  src: local(''),
-    url('../../fonts/roboto-v30-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-500.woff2') format('woff2'),
-    url('../../fonts/roboto-v30-latin_cyrillic-500.woff') format('woff'),
-    url('../../fonts/roboto-v30-latin_cyrillic-500.ttf') format('truetype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  src: url("../../fonts/roboto-v30-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v30-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin_cyrillic-500.woff2") format("woff2"), url("../../fonts/roboto-v30-latin_cyrillic-500.woff") format("woff"), url("../../fonts/roboto-v30-latin_cyrillic-500.ttf") format("truetype"), url("../../fonts/roboto-v30-latin_cyrillic-500.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* roboto-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url('../../fonts/roboto-v30-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-    url('../../fonts/roboto-v30-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-700.woff2') format('woff2'),
-    url('../../fonts/roboto-v30-latin_cyrillic-700.woff') format('woff'),
-    url('../../fonts/roboto-v30-latin_cyrillic-700.ttf') format('truetype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  src: url("../../fonts/roboto-v30-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v30-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/roboto-v30-latin_cyrillic-700.woff") format("woff"), url("../../fonts/roboto-v30-latin_cyrillic-700.ttf") format("truetype"), url("../../fonts/roboto-v30-latin_cyrillic-700.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* roboto-900 - latin_cyrillic */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: url('../../fonts/roboto-v30-latin_cyrillic-900.eot'); /* IE9 Compat Modes */
-  src: local(''),
-    url('../../fonts/roboto-v30-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-900.woff2') format('woff2'),
-    url('../../fonts/roboto-v30-latin_cyrillic-900.woff') format('woff'),
-    url('../../fonts/roboto-v30-latin_cyrillic-900.ttf') format('truetype'),
-    url('../../fonts/roboto-v30-latin_cyrillic-900.svg#Roboto') format('svg'); /* Legacy iOS */
+  src: url("../../fonts/roboto-v30-latin_cyrillic-900.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v30-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v30-latin_cyrillic-900.woff2") format("woff2"), url("../../fonts/roboto-v30-latin_cyrillic-900.woff") format("woff"), url("../../fonts/roboto-v30-latin_cyrillic-900.ttf") format("truetype"), url("../../fonts/roboto-v30-latin_cyrillic-900.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 body {
   background-color: #ffffff;
   color: #757575;
-  font-family: font-face;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -152,7 +117,7 @@ h5 {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -168,10 +133,10 @@ h5 {
   border: 1px solid #2196f3;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -181,7 +146,7 @@ h5 {
   display: inline-block;
   margin-top: 24px;
   margin-bottom: 25px;
-  font-family: 'RaleWay', sans-serif;
+  font-family: "RaleWay", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -210,8 +175,8 @@ h5 {
   gap: 50px;
   font-weight: 500;
   line-height: 1.14;
-  color: #212121;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .headnav__link {
@@ -221,8 +186,7 @@ h5 {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.headnav__link:hover,
-.headnav__link:focus {
+.headnav__link:hover, .headnav__link:focus {
   color: #2196f3;
 }
 
@@ -232,7 +196,7 @@ h5 {
 }
 
 .headnav__link--current::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 4px;
@@ -266,9 +230,10 @@ h5 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   color: #757575;
   font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.headnav__contact:hover,
-.headnav__contact:focus {
+.headnav__contact:hover, .headnav__contact:focus {
   color: #2196f3;
 }
 
@@ -283,8 +248,7 @@ h5 {
 .effective {
   background-color: #c4c4c4;
   padding: 200px 0;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/bg-hero.jpg');
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -313,8 +277,7 @@ h5 {
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.effective__btn:hover,
-.effective__btn:focus {
+.effective__btn:hover, .effective__btn:focus {
   background-color: #188ce8;
 }
 
@@ -334,8 +297,8 @@ h5 {
   height: 120px;
   margin-bottom: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .featureslist__h {
@@ -377,8 +340,8 @@ h5 {
   width: 370px;
   height: 70px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
   font-weight: 700;
@@ -404,8 +367,7 @@ h5 {
 }
 .team--list > .team--list__item {
   margin-right: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
@@ -445,8 +407,8 @@ h5 {
 
 .team--soc__list {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .team--soc__items {
@@ -463,14 +425,12 @@ h5 {
   height: 100%;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   fill: #afb1b8;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.team--soc__link:hover,
-.team--soc__link:focus {
+.team--soc__link:hover, .team--soc__link:focus {
   fill: #ffffff;
   background-color: #2196f3;
 }
@@ -501,18 +461,16 @@ h5 {
 
 .regular__clients--link {
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 92px;
   color: #afb1b8;
 }
-.regular__clients--link:hover,
-.regular__clients--link:focus {
+.regular__clients--link:hover, .regular__clients--link:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
 }
@@ -539,8 +497,7 @@ h5 {
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.footer__address:hover,
-.footer__address:focus {
+.footer__address:hover, .footer__address:focus {
   color: #2196f3;
 }
 
@@ -549,8 +506,7 @@ h5 {
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.footer__contact:hover,
-.footer__contact:focus {
+.footer__contact:hover, .footer__contact:focus {
   color: #2196f3;
 }
 
@@ -589,12 +545,10 @@ h5 {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   color: #ffffff;
 }
-.footer__soc--link:hover,
-.footer__soc--link:focus {
+.footer__soc--link:hover, .footer__soc--link:focus {
   background-color: #2196f3;
 }
 
@@ -625,12 +579,11 @@ h5 {
 
 .footer__subscribe--btn {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
-.footer__subscribe--btn:hover,
-.footer__subscribe--btn:focus {
+.footer__subscribe--btn:hover, .footer__subscribe--btn:focus {
   background-color: #188ce8;
 }
 
@@ -640,8 +593,7 @@ h5 {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -669,8 +621,8 @@ h5 {
   width: 30px;
   height: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
@@ -679,8 +631,7 @@ h5 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
 }
-.icon__close:hover,
-.icon__close:focus {
+.icon__close:hover, .icon__close:focus {
   color: #2196f3;
 }
 
@@ -711,10 +662,7 @@ h5 {
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__input:focus + .modal__icon--svg,
-.modal__input:hover + .modal__icon--svg,
-.modal__input:hover,
-.modal__input:focus {
+.modal__input:focus + .modal__icon--svg, .modal__input:hover + .modal__icon--svg, .modal__input:hover, .modal__input:focus {
   border-color: #2196f3;
   fill: #2196f3;
 }
@@ -762,18 +710,17 @@ h5 {
 
 .modal__label--check {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   position: relative;
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
 }
-.modal__label--check:hover,
-.modal__label--check:focus {
+.modal__label--check:hover, .modal__label--check:focus {
   text-decoration: underline;
   -webkit-text-decoration-color: #2196f3;
-  text-decoration-color: #2196f3;
+          text-decoration-color: #2196f3;
 }
 
 .modal--link {
@@ -788,8 +735,7 @@ h5 {
   margin-right: 9px;
   border: 2px solid #212121;
   border-radius: 2px;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal--btn {
@@ -810,7 +756,7 @@ h5 {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -840,7 +786,7 @@ h5 {
 
 .btn__list--btn {
   padding: 6px 22px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -848,17 +794,13 @@ h5 {
   color: #212121;
   border-radius: 4px;
   border: 1px solid transparent;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.btn__list--btn:hover,
-.btn__list--btn:active,
-.btn__list--btn:focus {
+.btn__list--btn:hover, .btn__list--btn:active, .btn__list--btn:focus {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn__list {
@@ -887,7 +829,7 @@ h5 {
   margin-right: 0;
 }
 
-.portf__list > .portf__list--item:nth-last-child(-n + 3) {
+.portf__list > .portf__list--item:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
 
@@ -895,10 +837,8 @@ h5 {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.portf__list--a:hover,
-.portf__list--a:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.portf__list--a:hover, .portf__list--a:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portf__list--a:hover .portf__div--p {
   transform: translateY(-100%);
@@ -945,4 +885,4 @@ h5 {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

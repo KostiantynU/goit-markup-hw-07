@@ -1,7 +1,7 @@
 body {
   background-color: getColor('white-color');
   color: getColor('main-p-color');
-  font-family: font-face;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -66,10 +66,10 @@ h5 {
   border: 1px solid getColor('main-accent-color');
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
 }

@@ -8,7 +8,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -16,15 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -38,10 +30,10 @@
           >
           <nav>
             <ul class="headnav list">
-              <li class="item">
+              <li>
                 <a href="./index.html" class="headnav__link link" target="_self">Студія</a>
               </li>
-              <li class="item">
+              <li>
                 <a
                   href="./portfolio.html"
                   class="headnav__link link headnav__link--current"
@@ -49,11 +41,11 @@
                   >Портфоліо</a
                 >
               </li>
-              <li class="item"><a href="" class="headnav__link link">Контакти</a></li>
+              <li><a href="" class="headnav__link link">Контакти</a></li>
             </ul>
           </nav>
           <ul class="headnav__contacts list">
-            <li class="item">
+            <li>
               <a href="mailto:info@devstudio.com" class="headnav__contact link"
                 ><svg width="16" height="12" class="headnav__icon--envelope">
                   <use href="./images/icons.svg#icon-envelope"></use>
@@ -61,7 +53,7 @@
                 info@devstudio.com</a
               >
             </li>
-            <li class="item">
+            <li>
               <a href="tel:+380961111111" class="headnav__contact link"
                 ><svg width="10" height="16" class="headnav__icon--smartphone">
                   <use href="./images/icons.svg#icon-smartphone"></use>
@@ -78,19 +70,29 @@
       <!--Фільтри-->
       <section class="section">
         <div class="container">
-          <h1 class="features-h-invisible">Знову невидимий заголовок</h1>
-          <ul class="btn-list list">
-            <li class="item"><button type="button" class="btn">Усі</button></li>
-            <li class="item"><button type="button" class="btn">Веб-сайти</button></li>
-            <li class="item"><button type="button" class="btn">Додатки</button></li>
-            <li class="item"><button type="button" class="btn">Дизайн</button></li>
-            <li class="item"><button type="button" class="btn">Маркетинг</button></li>
+          <h1 class="invisible">Знову невидимий заголовок</h1>
+          <ul class="btn__list list">
+            <li class="btn__list--item">
+              <button type="button" class="btn__list--btn">Усі</button>
+            </li>
+            <li class="btn__list--item">
+              <button type="button" class="btn__list--btn">Веб-сайти</button>
+            </li>
+            <li class="btn__list--item">
+              <button type="button" class="btn__list--btn">Додатки</button>
+            </li>
+            <li class="btn__list--item">
+              <button type="button" class="btn__list--btn">Дизайн</button>
+            </li>
+            <li class="btn__list--item">
+              <button type="button" class="btn__list--btn">Маркетинг</button>
+            </li>
           </ul>
           <!--Портфоліо-->
-          <ul class="portf-list list">
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+          <ul class="portf__list list">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p01.jpg"
                     width="370"
@@ -98,21 +100,21 @@
                     alt="Ноутбук"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Технокряк</h2>
-                  <p class="portf-p">Веб-сайт</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Технокряк</h2>
+                  <p class="portf__box--p">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p02.jpg"
                     width="370"
@@ -120,21 +122,21 @@
                     alt="Баскетбол"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Постер New Orlean vs Golden Star</h2>
-                  <p class="portf-p">Дизайн</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Постер New Orlean vs Golden Star</h2>
+                  <p class="portf__box--p">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p03.jpg"
                     width="370"
@@ -142,22 +144,21 @@
                     alt="Акула"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Ресторан Seafood</h2>
-                  <p class="portf-p">Додаток</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Ресторан Seafood</h2>
+                  <p class="portf__box--p">Додаток</p>
                 </div>
               </a>
             </li>
-
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p04.jpg"
                     width="370"
@@ -165,21 +166,21 @@
                     alt="Навушники"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Проєкт Prime</h2>
-                  <p class="portf-p">Маркетинг</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Проєкт Prime</h2>
+                  <p class="portf__box--p">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p05.jpg"
                     width="370"
@@ -187,21 +188,21 @@
                     alt="Коробки"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Проєкт Boxes</h2>
-                  <p class="portf-p">Додаток</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Проєкт Boxes</h2>
+                  <p class="portf__box--p">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p06.jpg"
                     width="370"
@@ -209,21 +210,21 @@
                     alt="Монітор"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Inspiration has no Borders</h2>
-                  <p class="portf-p">Веб-сайт</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Inspiration has no Borders</h2>
+                  <p class="portf__box--p">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p07.jpg"
                     width="370"
@@ -231,22 +232,21 @@
                     alt="Книга"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Видання Limited Edition</h2>
-                  <p class="portf-p">Дизайн</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Видання Limited Edition</h2>
+                  <p class="portf__box--p">Дизайн</p>
                 </div>
               </a>
             </li>
-
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p08.jpg"
                     width="370"
@@ -254,21 +254,21 @@
                     alt="Проєкт LAB"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Маркетинг</h2>
-                  <p class="portf-p">Маркетинг</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Маркетинг</h2>
+                  <p class="portf__box--p">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="#" class="portf-list-a link">
-                <div class="portf-div-overlay">
+            <li class="portf__list--item">
+              <a href="#" class="portf__list--a link">
+                <div class="portf__div--overlay">
                   <img
                     src="./images/img-p09.jpg"
                     width="370"
@@ -276,15 +276,15 @@
                     alt="Growing Business"
                     class="img"
                   />
-                  <p class="portf-div-p">
+                  <p class="portf__div--p">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                     приватну особу.
                   </p>
                 </div>
-                <div class="box-portf">
-                  <h2 class="portf-h">Growing Business</h2>
-                  <p class="portf-p">Додаток</p>
+                <div class="portf__box">
+                  <h2 class="portf__box--h">Growing Business</h2>
+                  <p class="portf__box-p">Додаток</p>
                 </div>
               </a>
             </li>

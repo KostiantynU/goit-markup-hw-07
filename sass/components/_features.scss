@@ -15,9 +15,7 @@
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-align-justify;
 }
 .featureslist__h {
   display: block;
