@@ -1,4 +1,4 @@
-.effective {
+.effective-section {
   background-color: getColor('bcg-section');
   padding: 200px 0;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -11,8 +11,7 @@
   margin-right: auto;
   text-align: center;
 }
-.effective__h {
-  display: block;
+.effective-section__h {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -23,13 +22,4 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: getColor('white-color');
-}
-.effective__btn {
-  margin-left: auto;
-  margin-right: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  &:hover,
-  &:focus {
-    background-color: getColor('btn-hover-color');
-  }
 }

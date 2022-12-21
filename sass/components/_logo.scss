@@ -1,0 +1,18 @@
+/* Logo styles */
+.logo-link {
+  display: inline-block;
+  @include logo-link;
+}
+.logo-link__web {
+  color: getColor('main-accent-color');
+}
+.logo-link__studio_black {
+  color: getColor('logo-color');
+}
+.logo-link__studio_white {
+  color: getColor('white-color');
+}
+.logo-link__footer_mb28 {
+  margin-bottom: 28px;
+  margin-top: 0;
+}

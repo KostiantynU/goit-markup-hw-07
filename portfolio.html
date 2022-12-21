@@ -120,39 +120,47 @@
     <!--Шапка-->
     <header class="header">
       <div class="container">
-        <div class="nav-flex">
-          <a href="./index.html" class="logo__link link"
-            ><span class="logo__link--web">Web</span
-            ><span class="logo__link--studio">Studio</span></a
+        <div class="navigation__flex">
+          <a href="./index.html" class="logo-link link"
+            ><span class="logo-link__web">Web</span
+            ><span class="logo-link__studio_black">Studio</span></a
           >
           <nav>
-            <ul class="headnav list">
+            <ul class="navigation-list list">
               <li>
-                <a href="./index.html" class="headnav__link link" target="_self">Студія</a>
+                <a href="./index.html" class="navigation-list__link link" target="_self">Студія</a>
               </li>
               <li>
                 <a
                   href="./portfolio.html"
-                  class="headnav__link link headnav__link--current"
+                  class="navigation-list__link link navigation-list__link_current"
                   target="_self"
                   >Портфоліо</a
                 >
               </li>
-              <li><a href="" class="headnav__link link">Контакти</a></li>
+              <li><a href="" class="navigation-list__link link">Контакти</a></li>
             </ul>
           </nav>
-          <ul class="headnav__contacts list">
+          <ul class="navigation-contacts-list list">
             <li>
-              <a href="mailto:info@devstudio.com" class="headnav__contact link"
-                ><svg width="16" height="12" class="headnav__icon--envelope">
+              <a href="mailto:info@devstudio.com" class="navigation-contacts-list__link link"
+                ><svg
+                  width="16"
+                  height="12"
+                  class="navigation-contacts-list__icon--envelope--start"
+                >
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+380961111111" class="headnav__contact link"
-                ><svg width="10" height="16" class="headnav__icon--smartphone">
+              <a href="tel:+380961111111" class="navigation-contacts-list__link link"
+                ><svg
+                  width="10"
+                  height="16"
+                  class="navigation-contacts-list__icon--smartphone--start"
+                >
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -394,9 +402,9 @@
       <div class="container">
         <div class="footer__flex--div">
           <div class="footer__address__div">
-            <a href="./index.html" class="logo__link logo__link--footer link"
-              ><span class="logo__link--web">Web</span
-              ><span class="logo__link--footer">Studio</span></a
+            <a href="./index.html" class="logo-link logo-link__footer_mb28 link"
+              ><span class="logo-link__web">Web</span
+              ><span class="logo-link__studio_white">Studio</span></a
             >
             <address>
               <ul class="list">
@@ -409,12 +417,16 @@
                   >
                 </li>
                 <li class="footer__address--item">
-                  <a href="mailto:info@devstudio.com" class="footer__contact link"
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="navigation-contacts-list__link--footer link"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li class="footer__address--item">
-                  <a href="tel:+380961111111" class="footer__contact link">+38 096 111 11 11</a>
+                  <a href="tel:+380961111111" class="navigation-contacts-list__link--footer link"
+                    >+38 096 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
