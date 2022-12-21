@@ -1,16 +1,16 @@
 .team__section {
   background-color: getColor('features-div-color');
 }
-.team--list {
+.team__list {
   display: flex;
-  & > .team--list__item {
+  & > .team__list--item {
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: getColor('white-color');
   }
-  & > .team--list__item:last-child {
+  & > .team-__list--item:last-child {
     margin-right: 0;
   }
 }
@@ -26,7 +26,7 @@
   text-align: center;
   color: getColor('headers-nav-color');
 }
-.team--list__h {
+.team__list--h {
   display: block;
   margin-bottom: 10px;
   font-weight: 500;
@@ -35,23 +35,23 @@
   text-align: center;
   color: getColor('headers-nav-color');
 }
-.team--list__p {
+.team__list--p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
 }
-.team--soc__list {
+.team__soc--list {
   @include flex-align-justify;
 }
-.team--soc__items {
+.team__soc--items {
   width: 44px;
   height: 44px;
 }
-.team--soc__items:not(:last-child) {
+.team__soc--items:not(:last-child) {
   margin-right: 10px;
 }
-.team--soc__link {
+.team__soc--link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
