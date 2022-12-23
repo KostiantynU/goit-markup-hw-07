@@ -1,19 +1,27 @@
 .our-work__section {
   padding-top: 0;
 }
-.our-work__list {
+.our-work__h {
+  display: block;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: getColor('headers-nav-color');
+}
+.our-work-list {
   display: flex;
 }
-.our-work__list > .our-work__item {
+.our-work-list__item {
   margin-right: 30px;
 }
-.our-work__list > .our-work__item:last-child {
+.our-work-list__item:last-child {
   margin-right: 0;
 }
-.our-work__div {
+.our-work-list-div {
   position: relative;
 }
-.our-work__p {
+.our-work-list-div__p {
   position: absolute;
   bottom: 0;
   width: 370px;
@@ -24,12 +32,4 @@
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-}
-.our-work__h {
-  display: block;
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: getColor('headers-nav-color');
 }

@@ -8,14 +8,14 @@
 .features-list__item:last-child {
   margin-right: 0px;
 }
-.features-list__div {
+.features-list-div {
   background-color: getColor('features-div-color');
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   @include flex-align-justify;
 }
-.features-list__h {
+.features-list-div__h {
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
@@ -23,6 +23,6 @@
   text-transform: uppercase;
   color: getColor('headers-nav-color');
 }
-.features-list__p {
+.features-list-div__p {
   line-height: 1.71;
 }
