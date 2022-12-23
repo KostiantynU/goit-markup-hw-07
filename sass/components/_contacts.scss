@@ -14,10 +14,14 @@
   &:focus {
     color: getColor('main-accent-color');
   }
-}
-.navigation-contacts-list__icon--envelope,
-.navigation-contacts-list__icon--smartphone {
-  fill: currentColor;
+  &:hover > .navigation-contacts-list__icon--envelope,
+  &:focus > .navigation-contacts-list__icon--smartphone {
+    fill: currentColor;
+  }
+  &:focus > .navigation-contacts-list__icon--envelope,
+  &:hover > .navigation-contacts-list__icon--smartphone {
+    fill: currentColor;
+  }
 }
 .navigation-contacts-list__icon--envelope--start,
 .navigation-contacts-list__icon--smartphone--start {

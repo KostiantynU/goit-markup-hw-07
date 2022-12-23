@@ -182,9 +182,10 @@ h5 {
 .navigation-contacts-list__link:hover, .navigation-contacts-list__link:focus {
   color: #2196f3;
 }
-
-.navigation-contacts-list__icon--envelope,
-.navigation-contacts-list__icon--smartphone {
+.navigation-contacts-list__link:hover > .navigation-contacts-list__icon--envelope, .navigation-contacts-list__link:focus > .navigation-contacts-list__icon--smartphone {
+  fill: currentColor;
+}
+.navigation-contacts-list__link:focus > .navigation-contacts-list__icon--envelope, .navigation-contacts-list__link:hover > .navigation-contacts-list__icon--smartphone {
   fill: currentColor;
 }
 
